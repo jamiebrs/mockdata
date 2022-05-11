@@ -1,7 +1,7 @@
 {
   "Post": {
     "serviceName": { "string": {} },
-    "poc": { "string": {} },
+    "poc": { "string": {["Thor", "Loki"]} },
     "comments": {
       "hasMany": "Comment"
     }
