@@ -1,7 +1,7 @@
 {
   "Post": {
     "serviceName": { "string": {} },
-    { "poc": { "regexp": "[A-Z][a-z]{5,10}" } }
+    "poc": { "regexp": "[A-Z][a-z]{5,10}" },
     "status": { "string": [ "Approved", "Revoked"] },
     "comments": {
       "hasMany": "Comment"
