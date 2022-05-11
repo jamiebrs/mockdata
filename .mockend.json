@@ -2,7 +2,6 @@
   "Post": {
     "title": { "string": {} },
     "poc": { "string": {} },
-    "serviceName": { "string": {} },
     "comments": {
       "hasMany": "Comment"
     }
