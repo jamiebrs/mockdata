@@ -1,7 +1,7 @@
 {
   "Post": {
     "serviceName": { "string": {} },
-    "poc": { "regexp": "^[a-zA-Z][0-9a-zA-Z .,'-]*$" },
+    "poc": { "regexp": "\b([A-ZÀ-ÿ][-,a-z. ']+[ ]*)+" },
     "status": { "string": [ "Approved", "Revoked"] },
     "comments": {
       "hasMany": "Comment"
