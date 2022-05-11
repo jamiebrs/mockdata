@@ -1,11 +1,8 @@
 {
   "Post": {
     "serviceName": { "string": {} },
-    "poc": { "string": [
-      "Thor",
-      "Loki"
-    ] },
-    "status" { "string": [ "Approved", "Revoked"] },
+    "poc": { "string": ["Thor", "Loki"] },
+    "status": { "string": [ "Approved", "Revoked"] },
     "comments": {
       "hasMany": "Comment"
     }
