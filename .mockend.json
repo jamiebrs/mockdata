@@ -1,6 +1,7 @@
 {
   "Post": {
     "title": { "string": {} },
+    "poc": { "string": {} },
     "comments": {
       "hasMany": "Comment"
     }
