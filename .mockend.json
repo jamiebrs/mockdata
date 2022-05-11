@@ -5,6 +5,7 @@
       "Thor",
       "Loki"
     ] },
+    "status" { "string": [ "Approved", "Revoked"] },
     "comments": {
       "hasMany": "Comment"
     }
