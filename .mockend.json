@@ -1,7 +1,10 @@
 {
   "Post": {
     "serviceName": { "string": {} },
-    "poc": { "regexp": "[A-Z]+([ '-][a-zA-Z]+)*"},
+    "poc": "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      },
     "status": { "string": [ "Approved", "Revoked"] }
   }
   
