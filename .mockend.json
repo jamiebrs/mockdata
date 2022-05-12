@@ -1,10 +1,10 @@
 {
   "Post": {
     "serviceName": { "string": {} },
-    "poc": "loremWords": {
+    "poc": { "loremWords": {
         "minLength": 5,
         "maxLength": 20
-      },
+      }},
     "status": { "string": [ "Approved", "Revoked"] }
   }
   
